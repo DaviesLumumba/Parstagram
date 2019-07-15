@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#858585</color>
+    <color name="colorPrimaryDark">#D50000</color>
+    <color name="colorAccent">#494747</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="colorGradientStart">#ffd521</color>
+    <color
+        name="colorGradientCenter">#f50000</color>
+    <color
+        name="colorGradientEnd">#b900b4
+    </color>
+
+    <color
+        name="colorGradientBlue">#1400c8
+    </color>
+
+
+    <color
+        name="colorGradientGreen">#28dc28
+    </color>
+    <color
+        name="colorGradientCyan">#00b9ff
+    </color>
+
+
+</resources>

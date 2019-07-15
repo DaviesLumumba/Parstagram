@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_animation"
+    android:layout_height="match_parent">
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--tools:context=".ui.login.LoginActivity">-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textContainer1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="366dp"
+        android:layout_height="63dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"
+        android:hapticFeedbackEnabled="true"
+        android:textColorHint="#FFFFFF"
+        app:boxStrokeColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textContainer2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="366dp"
+        android:layout_height="63dp"
+        android:layout_margin="16dp"
+        android:hapticFeedbackEnabled="true"
+        android:textColorHint="#FFFFFF"
+        app:boxStrokeColor="#FFFFFF"
+        app:hintAnimationEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textContainer1"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:hint="@string/prompt_password"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="8dp"
+        android:enabled="true"
+        android:text="@string/action_sign_in_short"
+        app:backgroundTint="#114E4949"
+        app:layout_constraintEnd_toEndOf="@+id/textContainer2"
+        app:layout_constraintStart_toStartOf="@+id/textContainer2"
+        app:layout_constraintTop_toBottomOf="@+id/textContainer2" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="8dp"
+        android:shadowColor="#00FF6D00"
+        android:text="@string/sign_upBtn"
+        android:textColor="#FFFF"
+        app:backgroundTint="#114E4949"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/login"
+        app:layout_constraintStart_toStartOf="@+id/login" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="175dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bigger" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

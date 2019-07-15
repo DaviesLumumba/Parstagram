@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Parstagram</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="password_regex">"^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&amp;+=])(?=\S+$).{8,}$"</string>
+    <string name="email_regex">"^([\\w-\\.]+){1,64}@([\\w&amp;&amp;[^_]]+){2,255}.[a-z]{2,}$"</string>
+    <string name="username">\u0020   Username...</string>
+    <string name="email">\u0020   Email...</string>
+    <string name="re_enter_new_password">Re-enter new password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="sign_up">sign up</string>
+    <string name="sign_upBtn">SIGN UP</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="submit">submit</string>
+    <string name="take_a_picture">Take a picture</string>
+    <string name="description">Description...</string>
+</resources>
